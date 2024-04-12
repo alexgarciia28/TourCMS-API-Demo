@@ -70,8 +70,8 @@
 <body>
 <div class="container">
     <?php
-    // Conectar a la libreria de TourCMS en la carpeta
-    require 'TourCMS API/TourCMS.php';
+    // Conectar a la libreria de TourCMS con ruta relativa en todo el equipo
+    Require __DIR__ . '/TourCMS.php';
 
     // Inicio de sesion con las credenciales dadas en correo
     $marketplaceId = '126';
