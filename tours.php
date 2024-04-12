@@ -77,7 +77,7 @@
     $marketplaceId = '126';
     $apiKey = '5aed2d3d69ea';
     $channelId = '0';
-    $timeout = 120; // Tiempo de espera en segundos
+    $timeout = 120; // TTL
 
     // Inicializar la instancia de TourCMS
     $tourcms = new TourCMS\Utils\TourCMS($marketplaceId, $apiKey, 'simplexml', $timeout);
