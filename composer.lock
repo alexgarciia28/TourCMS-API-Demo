@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3077c067a59d1c15835cd47d4de67f3e",
+    "packages": [
+        {
+            "name": "tourcms/tourcms-php",
+            "version": "v4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TourCMS/tourcms-php.git",
+                "reference": "64824f2b4496e69ead5ab7738ece622ca1af2a85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TourCMS/tourcms-php/zipball/64824f2b4496e69ead5ab7738ece622ca1af2a85",
+                "reference": "64824f2b4496e69ead5ab7738ece622ca1af2a85",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev",
+                    "dev-v1.x": "1.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TourCMS\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TourCMS",
+                    "email": "support@tourcms.com",
+                    "homepage": "http://www.tourcms.com"
+                }
+            ],
+            "description": "TourCMS API wrapper for PHP",
+            "homepage": "https://github.com/TourCMS/tourcms-php",
+            "keywords": [
+                "api",
+                "tourcms"
+            ],
+            "support": {
+                "issues": "https://github.com/TourCMS/tourcms-php/issues",
+                "source": "https://github.com/TourCMS/tourcms-php/tree/v4.7.0"
+            },
+            "time": "2024-03-26T16:39:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
