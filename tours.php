@@ -71,7 +71,7 @@
 <div class="container">
     <?php
     // Conectar a la libreria de TourCMS en la carpeta
-    require 'C:\xampp\htdocs\TourCMS API\TourCMS.php';
+    require 'TourCMS API/TourCMS.php';
 
     // Inicio de sesion con las credenciales dadas en correo
     $marketplaceId = '126';
